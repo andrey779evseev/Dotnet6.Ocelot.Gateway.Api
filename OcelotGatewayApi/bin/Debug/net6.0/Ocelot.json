@@ -1,0 +1,32 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi1",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/webapi1/WeatherForecast",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    },
+    {
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "webapi2",
+          "Port": 3000
+        }
+      ],
+      "UpstreamPathTemplate": "/webapi2/WeatherForecast",
+      "UpstreamHttpMethod": [
+        "GET"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  ocelotgatewayapi:
+    build:
+      context: .
+      dockerfile: OcelotGatewayApi/Dockerfile
+    ports:
+      - "5001:3000"
+    hostname: ocelot
+  webapi1:
+    build:
+      context: .
+      dockerfile: WebApi1/Dockerfile
+    ports:
+      - "5002:3000"
+    hostname: webapi1
+  webapi2:
+    build: 
+      context: .
+      dockerfile: WebApi2/Dockerfile
+    ports:
+      - "5003:3000" 
+    hostname: webapi2

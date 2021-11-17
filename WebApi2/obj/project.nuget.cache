@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kU5y1x69aOWSx2rhjtg74t4HIMQ/xdqo4jtsWc+B9Kc9ERgHt/B05AboHKz+Duo3QyAxbjL7F+uxoCDy2eTFIw==",
+  "success": true,
+  "projectFilePath": "/Users/andrew/Documents/work/vida_xml/WebApi1/WebApi2/WebApi2.csproj",
+  "expectedPackageFiles": [
+    "/Users/andrew/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/andrew/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/andrew/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/Users/andrew/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/Users/andrew/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/Users/andrew/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
